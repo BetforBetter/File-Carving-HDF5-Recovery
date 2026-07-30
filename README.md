@@ -12,7 +12,7 @@ An employee of MicroBotics company, Jonathan Boyle, is suspected of leaking comp
 
 A drive was seized from the suspect and then acquired for forensic examination. A note was found stuck to the drive reading "First 3 bytes => +1". Initial file recovery attempts conducted by another agency did not reveal any evidence of dataset and model files having .h5 extension or HDF5 file format within the forensic image of the seized drive.
 
-You as Digital Forensic Examiners of ICF Agency are tasked to find out if there are HDF files in the drive; carve all of them and rebuild the files (if necessary) in order to make them readable by the HDFViewer software. The company provided a sample h5 file suspect-corrupted-files for helping the examination process. The hash value of the image file is given below.
+You as Digital Forensic Examiners of ICF Agency are tasked to find out if there are HDF files in the drive; carve all of them and rebuild the files (if necessary) in order to make them readable by the HDFViewer software. The company provided a sample h5 file 'suspect-corrupted-files' for helping the examination process. The hash value of the image file is given below.
 
 SHA256: 4365CCF79D65A16E9418869A6EEB75FAEB964661FB57785C91CC39AF7FD98FE8
 
