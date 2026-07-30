@@ -8,7 +8,7 @@ This project demonstrates an investigation focused on recovering intentionally o
 
 ## Scenario
 
-An employee of MicroBotics company, Jonathan Boyle, is suspected of leaking company's AI training models and datasets. The company keeps those models and datasets in Hierarchical Data Format Version 5 (HDF5) files (HDF5 File Format Specification). These models are viewable through HDFViewer software (https://www.hdfgroup.org/downloads/hdf5) or online version here. 
+An employee of MicroBotics company, Jonathan Boyle, is suspected of leaking company's AI training models and datasets. The company keeps those models and datasets in Hierarchical Data Format Version 5 (HDF5) files (https://support.hdfgroup.org/documentation/hdf5/latest/_f_m_t3.html#Superblock). These models are viewable through HDFViewer software (https://www.hdfgroup.org/downloads/hdf5) or online version (https://myhdf5.hdfgroup.org/). 
 
 A drive was seized from the suspect and then acquired for forensic examination. A note was found stuck to the drive reading "First 3 bytes => +1". Initial file recovery attempts conducted by another agency did not reveal any evidence of dataset and model files having .h5 extension or HDF5 file format within the forensic image of the seized drive.
 
